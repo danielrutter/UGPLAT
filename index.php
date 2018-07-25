@@ -70,7 +70,7 @@
 				<img src="/img/social-links/LinkedIn-Logo-White-128px-TM.png" alt="LinkedIn Logo">
 			</div>
 		</a>
-		<a href="#" onclick="return false" target="_blank">
+		<a href="https://github.com/danielrutter/UGPLAT" target="_blank">
 			<div class="container-5">
 				<img src="/img/social-links/GitHub_Logo_White.png" alt="GitHub Logo">
 			</div>
