@@ -45,7 +45,7 @@
 		</a>
 		<a href="https://linkedin.com/company/ugplat" target="_blank">
 			<div class="container-4">
-				<img src="/img/social-links/LinkedIn-Logo-White-128px-TM.png" alt="LinkedIn Logo">
+				<img src="/img/social-links/LinkedIn-Logo-White-ICON-TM.png" alt="LinkedIn Logo">
 			</div>
 		</a>
 	</div>
@@ -84,6 +84,11 @@
 	</div>
 	<div class="banner-ad">
 		BANNER AD
+	</div>
+	<div class="nav-links-mobile">
+		<a href="#" onclick="return false"><div class="nav-links-games">GAMES</div></a>
+		<a href="#" onclick="return false"><div class="nav-links-videos">VIDEOS</div></a>
+		<a href="#" onclick="return false"><div class="nav-links-music">MUSIC</div></a>
 	</div>
 	<div class="nav-links">
 		<a href="#" onclick="return false"><div class="nav-links-games"><big>GAMES</big></div></a>
@@ -530,10 +535,21 @@
 			</script>
 		</div>
 	</div>
+	<!-- GLOBAL SLIDESHOWS - MOST POPULAR MUSIC (END) -->
 	<div class="game-video-music-creator-container">
+	<a href="#" target="_blank" onclick="return false">
+		<div class="game-creator-mobile">
+			GAME CREATOR
+		</div>
+	</a>
 	<a href="#" target="_blank" onclick="return false">
 		<div class="game-creator">
 			GAME CREATOR
+		</div>
+	</a>
+	<a href="#" target="_blank" onclick="return false">
+		<div class="video-creator-mobile">
+			VIDEO CREATOR
 		</div>
 	</a>
 	<a href="#" target="_blank" onclick="return false">
@@ -542,16 +558,23 @@
 		</div>
 	</a>
 	<a href="#" target="_blank" onclick="return false">
+		<div class="music-creator-mobile">
+			MUSIC CREATOR
+		</div>
+	</a>
+	<a href="#" target="_blank" onclick="return false">
 		<div class="music-creator">
 			MUSIC CREATOR
 		</div>
 	</a>
 	</div>
-	<!-- GLOBAL SLIDESHOWS - MOST POPULAR MUSIC (END) -->
 	<div class="company-address">
 		This Universal Gaming Platform Named UGPLAT Is Under The Governance of An Organisation Known As Private Saver Communications
 	</div>
 	<div class="legal-copyright-container">
+		<div class="legal-links-mobile">
+			<a href="#" target="_blank" onclick="return false">TERMS OF SERVICE</a> OR <a href="#" target="_blank" onclick="return false">PRIVACY POLICY</a>
+		</div>
 		<div class="legal-links">
 			VIEW OUR <a href="#" target="_blank" onclick="return false">TERMS OF SERVICE</a> OR <a href="#" target="_blank" onclick="return false">PRIVACY POLICY</a>
 		</div>

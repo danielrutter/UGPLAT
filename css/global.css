@@ -14,7 +14,7 @@ body {
 	margin: 0 auto;
 	padding: 0px;
 	background-color: #202020;
-	min-width: 692px;
+	min-width: 320px;
 	max-width: 1320px;
 	color: #E6E6E6;
 }
@@ -42,7 +42,95 @@ a {
 	height: 0px;
 }
 
-@media screen and (min-width: 1px) and (max-width: 800px) {
+@media screen and (min-width: 1px) and (max-width: 691px) {
+
+#ugplat #social-links {
+	display: none;
+}
+
+#ugplat #social-links-mobile {
+	float: left;
+	min-width: 100%;
+	text-align: center;
+	border-bottom: 2px solid #45E3E3;
+	border-radius: 2px;
+}
+
+#ugplat #social-links-mobile .container-1 {
+	float: left;
+	width: 25%;
+	border-radius: 1px;
+	background-color: #202020;
+	color: #EEE;
+	padding: 5px;
+}
+
+#ugplat #social-links-mobile .container-1:hover {
+	background-color: #333;
+	color: #EEE;
+}
+
+#ugplat #social-links-mobile .container-1 img {
+	height: 28px;
+}
+
+#ugplat #social-links-mobile .container-2 {
+	float: left;
+	width: 25%;
+	border-radius: 1px;
+	background-color: #202020;
+	color: #EEE;
+	padding: 5px;
+}
+
+#ugplat #social-links-mobile .container-2:hover {
+	background-color: #333;
+	color: #EEE;
+}
+
+#ugplat #social-links-mobile .container-2 img {
+	height: 28px;
+}
+
+#ugplat #social-links-mobile .container-3 {
+	float: left;
+	width: 25%;
+	border-radius: 1px;
+	background-color: #202020;
+	color: #EEE;
+	padding: 5px;
+}
+
+#ugplat #social-links-mobile .container-3:hover {
+	background-color: #333;
+	color: #EEE;
+}
+
+#ugplat #social-links-mobile .container-3 img {
+	height: 28px;
+}
+
+#ugplat #social-links-mobile .container-4 {
+	float: left;
+	width: 25%;
+	border-radius: 1px;
+	background-color: #202020;
+	color: #EEE;
+	padding: 5px;
+}
+
+#ugplat #social-links-mobile .container-4:hover {
+	background-color: #333;
+	color: #EEE;
+}
+
+#ugplat #social-links-mobile .container-4 img {
+	height: 28px;
+}
+
+}
+
+@media screen and (min-width: 692px) and (max-width: 800px) {
 
 #ugplat #social-links {
 	display: none;
@@ -250,6 +338,36 @@ a {
 	border-bottom: 3px solid #202020;
 }
 
+@media screen and (min-width: 1px) and (max-width: 691px) {
+
+#ugplat .logo {
+	float: left;
+	width: 100%;
+	height: 120px;
+	line-height: 120px;
+	text-align: center;
+	font-size: 220%;
+	color: black;
+	background-color: lightcyan;
+	margin-bottom: 6px;
+}
+
+#ugplat .banner-ad {
+	float: left;
+	width: 100%;
+	height: 120px;
+	line-height: 120px;
+	text-align: center;
+	font-size: 220%;
+	color: black;
+	background-color: lightblue;
+	margin-bottom: 10px;
+}
+
+}
+
+@media screen and (min-width: 692px) {
+
 #ugplat .logo {
 	width: 25%;
 	float: left;
@@ -259,7 +377,7 @@ a {
 	font-size: 220%;
 	border-right:  1px solid #202020;
 	color: black;
-	background-color: #FEFEFE;
+	background-color: lightcyan;
 }
 
 #ugplat .banner-ad {
@@ -271,11 +389,69 @@ a {
 	font-size: 220%;
 	border-left:  2px solid #202020;
 	color: black;
-	background-color: #FEFEFE;
+	background-color: lightblue;
 	margin-bottom: 10px;
 }
 
-@media screen and (min-width: 1px) and (max-width: 800px) {
+}
+
+@media screen and (min-width: 1px) and (max-width: 691px) {
+
+.nav-links-mobile {
+	border: 1px solid #888;
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+	-moz-column-count: 3; /* Firefox */
+	column-count: 3;
+	-webkit-column-gap: 0px; /* Chrome, Safari, Opera */
+	-moz-column-gap: 0px; /* Firefox */
+	column-gap: 0px;
+	text-align: center;
+	font-size: 120%;
+	background-color: #111;
+	text-shadow: 1px 1px black;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.nav-links {
+	display: none;
+}
+
+.nav-links-mobile a {
+	color: transparent;
+	text-decoration: none;
+}
+
+.nav-links-games {
+	color: #FFD800;
+	border: 1px solid #FFD800;
+	border-radius: 2px;
+	margin-right: 10px;
+	background-color: black;
+}
+
+.nav-links-videos {
+	color: #6AE337;
+	border: 1px solid #6AE337;
+	border-radius: 2px;
+	margin-right: 10px;
+	background-color: black;
+}
+
+.nav-links-music {
+	color: cyan;
+	border: 1px solid cyan;
+	border-radius: 2px;
+	background-color: black;
+}
+
+}
+
+@media screen and (min-width: 692px) and (max-width: 800px) {
+
+.nav-links-mobile {
+	display: none;
+}
 
 .nav-links {
 	border: 1px solid #888;
@@ -324,6 +500,10 @@ a {
 }
 
 @media screen and (min-width: 801px) {
+
+.nav-links-mobile {
+	display: none;
+}
 
 .nav-links {
 	border: 1px solid #888;
@@ -477,6 +657,73 @@ li a:hover:not(.active) {
 
 }
 
+@media screen and (min-width: 1px) and (max-width: 691px) {
+
+.platform-desc-container {
+	padding-top: 24px;
+	text-align: center;
+}
+
+.platform-desc-title {
+	font-size: large;
+	color: #EEE;
+	background-color: #222;
+	border-top: 1px solid #F1F1F1;
+	border-left: 1px solid #F1F1F1;
+	border-right: 1px solid #F1F1F1;
+}
+
+.platform-desc {
+	padding: 8px;
+	font-size: large;
+	color: #EEE;
+	background-color: black;
+	border: 1px solid #F1F1F1;
+	margin-bottom: 16px;
+}
+
+.platform-desc a {
+	color: #84BBFF;
+	text-decoration: underline;
+}
+
+.platform-desc a:hover {
+	color: #FCFF81;
+}
+
+.top-banner-ad-container {
+	/* EMPTY */
+}
+
+.top-banner-ad-container a {
+	color: transparent;
+	text-decoration: none;
+}
+
+.top-banner-ad {
+	color: #EEE;
+	border: 1px solid grey;
+	border-radius: 4px;
+	text-align: center;
+	background-color: black;
+	font-size: x-large;
+	vertical-align: middle;
+	height: 180px;
+	line-height: 180px;
+}
+
+.top-banner-ad img {
+	/* EMPTY */
+}
+
+.top-banner-ad a {
+	color: #EEE;
+}
+
+}
+
+@media screen and (min-width: 692px) {
+
 .platform-desc-container {
 	padding-top: 24px;
 	text-align: center;
@@ -523,7 +770,6 @@ li a:hover:not(.active) {
 	border: 1px solid grey;
 	border-radius: 4px;
 	text-align: center;
-	height: 260px;
 	background-color: black;
 	font-size: xx-large;
 	vertical-align: middle;
@@ -538,6 +784,484 @@ li a:hover:not(.active) {
 .top-banner-ad a {
 	color: #EEE;
 }
+
+}
+
+@media screen and (min-width: 1px) and (max-width: 691px) {
+
+/* GLOBAL - SLIDESHOWS - CLASSIFIED ADS (START) [MOBILE] */
+
+.classified-ads-slideshow-1 {
+	border: 1px solid #EEE;
+	text-align: center;
+	font-size: 232%;
+	color: #EEE;
+	text-shadow: 1px 1px #0D4D4D;
+	background-color: #101010;
+	vertical-align: middle;
+	height: 182px;
+	line-height: 180px;
+	padding-left: 4px;
+	padding-right: 4px;
+	display: -webkit-flex; /* Safari */
+	-webkit-align-items: center; /* Safari 7.0+ */
+	display: flex;
+	align-items: center;
+}
+
+.classified-ads-slideshow-title {
+	font-size: large;
+	text-align: center;
+	border-top: 1px solid #DFDFDF;
+	border-left: 1px solid #DFDFDF;
+	border-right: 1px solid #DFDFDF;
+	padding: 6px;
+}
+
+.classified-ads-slideshow-l1 {
+	display: none;
+}
+
+.classified-ads-slideshow-c1 {
+	display: inline;
+	display: -webkit-flex; /* Safari */
+	-webkit-align-items: center; /* Safari 7.0+ */
+	display: flex;
+	align-items: center;
+}
+
+.classified-ads-slideshow-c1 img {
+	background-color: #222;
+	width: 100%;
+	height: auto;
+}
+
+.classified-ads-slideshow-l1 img {
+	height: 74px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 28px;
+}
+
+.classified-ads-slideshow-r1 {
+	display: none;
+}
+
+.classified-ads-slideshow-r1 img {
+	height: 74px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 28px;
+}
+
+/* GLOBAL - SLIDESHOWS - CLASSIFIED ADS (END) */
+
+/* GLOBAL - SLIDESHOWS - LATEST GAMES (START) */
+
+.latest-games-slideshow-1 {
+	border: 1px solid #EEE;
+	text-align: center;
+	font-size: 232%;
+	color: #EEE;
+	text-shadow: 1px 1px #0D4D4D;
+	background-color: #101010;
+	vertical-align: middle;
+	height: 182px;
+	line-height: 180px;
+	padding-left: 4px;
+	padding-right: 4px;
+	display: -webkit-flex; /* Safari */
+	-webkit-align-items: center; /* Safari 7.0+ */
+	display: flex;
+	align-items: center;
+}
+
+.latest-games-slideshow-title {
+	font-size: large;
+	text-align: center;
+	border-top: 1px solid #DFDFDF;
+	border-left: 1px solid #DFDFDF;
+	border-right: 1px solid #DFDFDF;
+	padding: 6px;
+}
+
+.latest-games-slideshow-l1 {
+	display: none;
+}
+
+.latest-games-slideshow-c1 {
+	display: inline;
+	display: -webkit-flex; /* Safari */
+	-webkit-align-items: center; /* Safari 7.0+ */
+	display: flex;
+	align-items: center;
+}
+
+.latest-games-slideshow-c1 img {
+	background-color: #222;
+	width: 100%;
+	height: auto;
+}
+
+.latest-games-slideshow-l1 img {
+	height: 74px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 28px;
+}
+
+.latest-games-slideshow-r1 {
+	display: none;
+}
+
+.latest-games-slideshow-r1 img {
+	height: 74px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 28px;
+}
+
+/* GLOBAL - SLIDESHOWS - LATEST GAMES (END) */
+
+/* GLOBAL - SLIDESHOWS - GLOBAL FAVOURITES (START) */
+
+.global-favourites-slideshow-1 {
+	border: 1px solid #EEE;
+	text-align: center;
+	font-size: 232%;
+	color: #EEE;
+	text-shadow: 1px 1px #0D4D4D;
+	background-color: #101010;
+	vertical-align: middle;
+	height: 182px;
+	line-height: 180px;
+	padding-left: 4px;
+	padding-right: 4px;
+	display: -webkit-flex; /* Safari */
+	-webkit-align-items: center; /* Safari 7.0+ */
+	display: flex;
+	align-items: center;
+}
+
+.global-favourites-slideshow-title {
+	font-size: large;
+	text-align: center;
+	border-top: 1px solid #DFDFDF;
+	border-left: 1px solid #DFDFDF;
+	border-right: 1px solid #DFDFDF;
+	padding: 6px;
+}
+
+.global-favourites-slideshow-l1 {
+	display: none;
+}
+
+.global-favourites-slideshow-c1 {
+	display: inline;
+	display: -webkit-flex; /* Safari */
+	-webkit-align-items: center; /* Safari 7.0+ */
+	display: flex;
+	align-items: center;
+}
+
+.global-favourites-slideshow-c1 img {
+	background-color: #222;
+	width: 100%;
+	height: auto;
+}
+
+.global-favourites-slideshow-l1 img {
+	height: 74px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 28px;
+}
+
+.global-favourites-slideshow-r1 {
+	display: none;
+}
+
+.global-favourites-slideshow-r1 img {
+	height: 74px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 28px;
+}
+
+/* GLOBAL - SLIDESHOWS - GLOBAL FAVOURITES (END) */
+
+/* GLOBAL - SLIDESHOWS - GLOBAL LIKES (START) */
+
+.global-likes-slideshow-1 {
+	border: 1px solid #EEE;
+	text-align: center;
+	font-size: 232%;
+	color: #EEE;
+	text-shadow: 1px 1px #0D4D4D;
+	background-color: #101010;
+	vertical-align: middle;
+	height: 182px;
+	line-height: 180px;
+	padding-left: 4px;
+	padding-right: 4px;
+	display: -webkit-flex; /* Safari */
+	-webkit-align-items: center; /* Safari 7.0+ */
+	display: flex;
+	align-items: center;
+}
+
+.global-likes-slideshow-title {
+	font-size: large;
+	text-align: center;
+	border-top: 1px solid #DFDFDF;
+	border-left: 1px solid #DFDFDF;
+	border-right: 1px solid #DFDFDF;
+	padding: 6px;
+}
+
+.global-likes-slideshow-l1 {
+	display: none;
+}
+
+.global-likes-slideshow-c1 {
+	display: inline;
+	display: -webkit-flex; /* Safari */
+	-webkit-align-items: center; /* Safari 7.0+ */
+	display: flex;
+	align-items: center;
+}
+
+.global-likes-slideshow-c1 img {
+	background-color: #222;
+	width: 100%;
+	height: auto;
+}
+
+.global-likes-slideshow-l1 img {
+	height: 74px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 28px;
+}
+
+.global-likes-slideshow-r1 {
+	display: none;
+}
+
+.global-likes-slideshow-r1 img {
+	height: 74px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 28px;
+}
+
+/* GLOBAL - SLIDESHOWS - GLOBAL LIKES (END) */
+
+/* GLOBAL - SLIDESHOWS - MOST POPULAR GAMES (START) */
+
+.most-popular-games-slideshow-1 {
+	border: 1px solid #EEE;
+	text-align: center;
+	font-size: 232%;
+	color: #EEE;
+	text-shadow: 1px 1px #0D4D4D;
+	background-color: #101010;
+	vertical-align: middle;
+	height: 182px;
+	line-height: 180px;
+	padding-left: 4px;
+	padding-right: 4px;
+	display: -webkit-flex; /* Safari */
+	-webkit-align-items: center; /* Safari 7.0+ */
+	display: flex;
+	align-items: center;
+}
+
+.most-popular-games-slideshow-title {
+	font-size: large;
+	text-align: center;
+	border-top: 1px solid #DFDFDF;
+	border-left: 1px solid #DFDFDF;
+	border-right: 1px solid #DFDFDF;
+	padding: 6px;
+}
+
+.most-popular-games-slideshow-l1 {
+	display: none;
+}
+
+.most-popular-games-slideshow-c1 {
+	display: inline;
+	display: -webkit-flex; /* Safari */
+	-webkit-align-items: center; /* Safari 7.0+ */
+	display: flex;
+	align-items: center;
+}
+
+.most-popular-games-slideshow-c1 img {
+	background-color: #222;
+	width: 100%;
+	height: auto;
+}
+
+.most-popular-games-slideshow-l1 img {
+	height: 74px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 28px;
+}
+
+.most-popular-games-slideshow-r1 {
+	display: none;
+}
+
+.most-popular-games-slideshow-r1 img {
+	height: 74px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 28px;
+}
+
+/* GLOBAL - SLIDESHOWS - MOST POPULAR GAMES (END) */
+
+/* GLOBAL - SLIDESHOWS - MOST POPULAR VIDEOS (START) */
+
+.most-popular-videos-slideshow-1 {
+	border: 1px solid #EEE;
+	text-align: center;
+	font-size: 232%;
+	color: #EEE;
+	text-shadow: 1px 1px #0D4D4D;
+	background-color: #101010;
+	vertical-align: middle;
+	height: 182px;
+	line-height: 180px;
+	padding-left: 4px;
+	padding-right: 4px;
+	display: -webkit-flex; /* Safari */
+	-webkit-align-items: center; /* Safari 7.0+ */
+	display: flex;
+	align-items: center;
+}
+
+.most-popular-videos-slideshow-title {
+	font-size: large;
+	text-align: center;
+	border-top: 1px solid #DFDFDF;
+	border-left: 1px solid #DFDFDF;
+	border-right: 1px solid #DFDFDF;
+	padding: 6px;
+}
+
+.most-popular-videos-slideshow-l1 {
+	display: none;
+}
+
+.most-popular-videos-slideshow-c1 {
+	display: inline;
+	display: -webkit-flex; /* Safari */
+	-webkit-align-items: center; /* Safari 7.0+ */
+	display: flex;
+	align-items: center;
+}
+
+.most-popular-videos-slideshow-c1 img {
+	background-color: #222;
+	width: 100%;
+	height: auto;
+}
+
+.most-popular-videos-slideshow-l1 img {
+	height: 74px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 28px;
+}
+
+.most-popular-videos-slideshow-r1 {
+	display: none;
+}
+
+.most-popular-videos-slideshow-r1 img {
+	height: 74px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 28px;
+}
+
+/* GLOBAL - SLIDESHOWS - MOST POPULAR VIDEOS (END) */
+
+/* GLOBAL - SLIDESHOWS - MOST POPULAR MUSIC (START) */
+
+.most-popular-music-slideshow-1 {
+	border: 1px solid #EEE;
+	text-align: center;
+	font-size: 232%;
+	color: #EEE;
+	text-shadow: 1px 1px #0D4D4D;
+	background-color: #101010;
+	vertical-align: middle;
+	height: 182px;
+	line-height: 180px;
+	padding-left: 4px;
+	padding-right: 4px;
+	display: -webkit-flex; /* Safari */
+	-webkit-align-items: center; /* Safari 7.0+ */
+	display: flex;
+	align-items: center;
+}
+
+.most-popular-music-slideshow-title {
+	font-size: large;
+	text-align: center;
+	border-top: 1px solid #DFDFDF;
+	border-left: 1px solid #DFDFDF;
+	border-right: 1px solid #DFDFDF;
+	padding: 6px;
+}
+
+.most-popular-music-slideshow-l1 {
+	display: none;
+}
+
+.most-popular-music-slideshow-c1 {
+	display: inline;
+	display: -webkit-flex; /* Safari */
+	-webkit-align-items: center; /* Safari 7.0+ */
+	display: flex;
+	align-items: center;
+}
+
+.most-popular-music-slideshow-c1 img {
+	background-color: #222;
+	width: 100%;
+	height: auto;
+}
+
+.most-popular-music-slideshow-l1 img {
+	height: 74px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 28px;
+}
+
+.most-popular-music-slideshow-r1 {
+	display: none;
+}
+
+.most-popular-music-slideshow-r1 img {
+	height: 74px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 28px;
+}
+
+/* GLOBAL - SLIDESHOWS - MOST POPULAR MUSIC (END) [MOBILE] */
+
+}
+
+@media screen and (min-width: 692px) {
+
 
 /* GLOBAL - SLIDESHOWS - CLASSIFIED ADS (START) */
 
@@ -1050,12 +1774,65 @@ li a:hover:not(.active) {
 
 /* GLOBAL - SLIDESHOWS - MOST POPULAR MUSIC (END) */
 
+}
+
 .game-video-music-creator-container {
 	margin-top: 7px;
 	-webkit-columns: 0px 3; /* Chrome, Safari, Opera */
 	-moz-columns: 0px 3; /* Firefox */
 	columns: 0px 3;
 }
+
+@media screen and (min-width: 1px) and (max-width: 691px) {
+
+.game-creator-mobile {
+	border: 0px;
+	border-radius: 2px;
+	background-color: #FFD800;
+	font-size: large;
+	padding: 4px;
+	text-align: center;
+	color: #222;
+	text-shadow: 0px 1px #222;
+}
+
+.game-creator {
+	display: none;
+}
+
+.video-creator-mobile {
+	border: 0px;
+	border-radius: 2px;
+	background-color: #6AE337;
+	font-size: large;
+	padding: 4px;
+	text-align: center;
+	color: #222;
+	text-shadow: 0px 1px #222;
+}
+
+.video-creator {
+	display: none;
+}
+
+.music-creator-mobile {
+	border: 0px;
+	border-radius: 2px;
+	background-color: cyan;
+	font-size: large;
+	padding: 4px;
+	text-align: center;
+	color: #222;
+	text-shadow: 0px 1px #222;
+}
+
+.music-creator {
+	display: none;
+}
+
+}
+
+@media screen and (min-width: 692px) {
 
 .game-creator {
 	border: 0px;
@@ -1066,6 +1843,10 @@ li a:hover:not(.active) {
 	text-align: center;
 	color: #222;
 	text-shadow: 0px 1px #222;
+}
+
+.game-creator-mobile {
+	display: none;
 }
 
 .video-creator {
@@ -1079,6 +1860,10 @@ li a:hover:not(.active) {
 	text-shadow: 0px 1px #222;
 }
 
+.video-creator-mobile {
+	display: none;
+}
+
 .music-creator {
 	border: 0px;
 	border-radius: 2px;
@@ -1090,6 +1875,12 @@ li a:hover:not(.active) {
 	text-shadow: 0px 1px #222;
 }
 
+.music-creator-mobile {
+	display: none;
+}
+
+}
+
 .company-address {
 	text-align: center;
 	padding: 8px;
@@ -1099,7 +1890,60 @@ li a:hover:not(.active) {
 	margin-top: 8px;
 }
 
-@media screen and (min-width: 1px) and (max-width: 1000px) {
+@media screen and (min-width: 1px) and (max-width: 691px) {
+
+.legal-copyright-container {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.legal-links-mobile {
+	text-align: center;
+	color: #888;
+	margin-bottom: 6px;
+}
+
+.legal-links-mobile a {
+	color: lightgrey;
+}
+
+.legal-links-mobile a:hover {
+	color: yellow;
+}
+
+.legal-links {
+	display: none;
+}
+
+.legal-links a {
+	color: lightgrey;
+}
+
+.legal-links a:hover {
+	color: yellow;
+}
+
+.copyright-notice {
+	text-align: center;
+	color: #A0A0A0;
+	font-size: small;
+}
+
+.copyright-notice a {
+	color: lightgrey;
+}
+
+.copyright-notice a:hover {
+	color: yellow;
+}
+
+}
+
+@media screen and (min-width: 692px) and (max-width: 1000px) {
+
+.legal-links-mobile {
+	display: none;
+}
 
 .legal-copyright-container {
 	margin-top: 8px;
@@ -1138,6 +1982,10 @@ li a:hover:not(.active) {
 }
 
 @media screen and (min-width: 1001px) {
+
+.legal-links-mobile {
+	display: none;
+}
 
 .legal-copyright-container {
 	-webkit-column-count: 2; /* Chrome, Safari, Opera */
