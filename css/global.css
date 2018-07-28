@@ -1776,14 +1776,16 @@ li a:hover:not(.active) {
 
 }
 
+@media screen and (min-width: 1px) and (max-width: 691px) {
+
 .game-video-music-creator-container {
 	margin-top: 7px;
+	margin-left: 6px;
+	margin-right: 6px;
 	-webkit-columns: 0px 3; /* Chrome, Safari, Opera */
 	-moz-columns: 0px 3; /* Firefox */
 	columns: 0px 3;
 }
-
-@media screen and (min-width: 1px) and (max-width: 691px) {
 
 .game-creator-mobile {
 	border: 0px;
@@ -1833,6 +1835,13 @@ li a:hover:not(.active) {
 }
 
 @media screen and (min-width: 692px) {
+
+.game-video-music-creator-container {
+	margin-top: 7px;
+	-webkit-columns: 0px 3; /* Chrome, Safari, Opera */
+	-moz-columns: 0px 3; /* Firefox */
+	columns: 0px 3;
+}
 
 .game-creator {
 	border: 0px;
