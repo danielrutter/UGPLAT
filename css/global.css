@@ -10,6 +10,8 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 
+@media screen and (min-width: 1px) and (max-width: 1039px) {
+
 body {
 	margin: 0 auto;
 	padding: 0px;
@@ -17,6 +19,24 @@ body {
 	min-width: 320px;
 	max-width: 1320px;
 	color: #E6E6E6;
+}
+
+}
+
+@media screen and (min-width: 1040px) {
+
+body {
+	margin: 0 auto;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 2%;
+	padding-right: 2%;
+	background-color: #202020;
+	min-width: 320px;
+	max-width: 1320px;
+	color: #E6E6E6;
+}
+
 }
 
 a {
